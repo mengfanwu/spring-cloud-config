@@ -1,0 +1,10 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: spring-cloud-config-client
+  cloud:
+    config:
+      uri: http://127.0.0.1:8081
+      label: master
+      profile: dev
